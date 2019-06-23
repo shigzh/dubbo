@@ -11,7 +11,7 @@ public class UserServiceImpl implements UserService {
     public String getUser(Long userId) {
         System.out.println("###会员服务接受参数开始userId:" + userId);
         if (userId == 1) {
-            return "余胜军";
+            return "shigzh";
         }
         if (userId == 2) {
             return "张杰";
